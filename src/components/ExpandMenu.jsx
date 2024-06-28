@@ -21,7 +21,7 @@ const ExpandMenu = ({ show, isMobile, toggleShow }) => {
   return (
     <div className={menuClass}>
       {show && (
-        <div className="bg-white sm:h-fit rounded-lg h-[70vh] w-80 p-4 gap-4 flex flex-col text-base overflow-scroll">
+        <div className="bg-white sm:h-[100%] rounded-lg h-[70vh] w-80 p-4 gap-4 flex flex-col text-base overflow-scroll">
           {!isMobile && (
             <div className="flex flex-col">
               <span onClick={toggleShow} className="cursor-pointer h-10"><GiHamburgerMenu style={{ fontSize: '1.3rem' }}/>
