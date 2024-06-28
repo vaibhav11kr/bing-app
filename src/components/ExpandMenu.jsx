@@ -16,7 +16,7 @@ import { VscBlank } from "react-icons/vsc";
 
 
 const ExpandMenu = ({ show, isMobile, toggleShow }) => {
-  const menuClass = `text-gray-800 text-sm absolute right-0 md:top-9 z-50 sm:top-24 h-[80vh] transition-transform duration-300 transform ${show ? 'translate-x-0' : 'translate-x-full'}`;
+  const menuClass = `text-gray-800 text-sm absolute right-0 md:top-9 z-50 sm:top-24 h-[80vh] transition-transform duration-300 transform overflow-scroll ${show ? 'translate-x-0' : 'translate-x-full'}`;
 
   return (
     <div className={menuClass}>
