@@ -25,7 +25,7 @@ const Search = () => {
       <SiGooglelens style={{ fontSize: '1.3rem', color:"blue" }}/>
       </div>
       </div>
-      <div className="text-white flex gap-2 text-xs absolute top-16 whitespace-pre-wrap">
+      <div className="text-white flex gap-2 text-xs absolute top-16 w-[90%] whitespace-pre-wrap">
         <span>Languages:</span>
         <a
           href="/?setlang=hi&amp;cc=in&amp;cc=IN"
