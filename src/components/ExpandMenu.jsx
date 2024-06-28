@@ -16,12 +16,12 @@ import { VscBlank } from "react-icons/vsc";
 
 
 const ExpandMenu = ({ show, isMobile, toggleShow }) => {
-  const menuClass = `text-gray-800 text-sm absolute right-0 md:top-9 z-50 sm:top-24 h-[80vh] transition-transform duration-300 transform overflow-scroll ${show ? 'translate-x-0' : 'translate-x-full'}`;
+  const menuClass = `text-gray-800 text-sm absolute right-0 md:top-9 z-50 sm:top-24 h-[70vh] transition-transform duration-300 transform overflow-scroll ${show ? 'translate-x-0' : 'translate-x-full'}`;
 
   return (
     <div className={menuClass}>
       {show && (
-        <div className="bg-white sm:h-fit rounded-lg h-[95vh] w-80 p-4 gap-4 flex flex-col text-base overflow-scroll">
+        <div className="bg-white sm:h-fit rounded-lg h-[70vh] w-80 p-4 gap-4 flex flex-col text-base overflow-scroll">
           {!isMobile && (
             <div className="flex flex-col">
               <span onClick={toggleShow} className="cursor-pointer h-10"><GiHamburgerMenu style={{ fontSize: '1.3rem' }}/>
