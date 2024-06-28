@@ -90,20 +90,7 @@ const Search = () => {
         >
           ગુજરાતી
         </a>
-        <a
-          href="/?setlang=ml&amp;cc=in&amp;cc=IN"
-          data-h="ID=HpApp,32432.1"
-          aria-label="Malayalam"
-        >
-          മലയാളം
-        </a>
-        <a
-          href="/?setlang=or&amp;cc=in&amp;cc=IN"
-          data-h="ID=HpApp,32432.1"
-          aria-label="Odia"
-        >
-          ଓଡ଼ିଆ
-        </a>
+        
       </div>
     </div>
   );
